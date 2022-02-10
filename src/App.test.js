@@ -19,7 +19,7 @@ describe('test for the button', () => {
     expect(colorBtn.textContent).toBe("Change button color to green")
   })
 
-  test("button style", () => {
+  test("button style on render", () => {
     render(<App />)
     const colorBtn = screen.getByRole("button")
 
