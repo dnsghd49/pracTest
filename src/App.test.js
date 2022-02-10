@@ -39,9 +39,3 @@ test("checkbox disables button when first clicked, then enables button on second
   userEvent.click(checkbox)
   expect(colorBtn).toBeEnabled()
 })
-
-// test('renders learn react link', () => {
-//   render(<App />);
-//   const linkElement = screen.getByText(/learn react/i);
-//   expect(linkElement).toBeInTheDocument();
-// });
